@@ -14,7 +14,6 @@ app.use(cors());
 //ROUTES
 app.use('/shops', shopRoutes);
 
-// const CONNECTION_URL = 'mongodb+srv://jay:jay123@cluster0.amnj6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 const PORT = process.env.PORT || 5000;
 
